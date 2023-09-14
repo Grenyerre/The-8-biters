@@ -1,0 +1,11 @@
+/* Menu */
+#menu {
+    list-style-type: none;
+}
+
+/* Footer */
+#social-media-links {
+    color: #000;
+    text-align: center;
+    list-style-type: none;
+}
