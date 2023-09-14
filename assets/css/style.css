@@ -3,9 +3,18 @@
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+}
+
+/* Only valid for mouse use! */
+a:hover {
+    text-transform: uppercase;
+}
+
 /* Footer */
 #social-media-links {
     color: #000;
-    text-align: center;
+    text-align: justify;
     list-style-type: none;
 }
