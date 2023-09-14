@@ -1,3 +1,15 @@
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Geostar+Fill&family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap');
+
+/* General styling */
+h2, li, p {
+    font-family: 'Zen Maru Gothic',
+        sans-serif;
+}
+/* Header */
+h1 {
+    font-family: 'Geostar Fill', cursive;
+}
 /* Menu */
 #menu {
     list-style-type: none;
