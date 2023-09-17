@@ -2,31 +2,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Geostar+Fill&family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap');
 
 /* General styling */
-h2, li, p {
-    font-family: 'Zen Maru Gothic',
-        sans-serif;
+h2,
+li,
+p {
+    font-family: 'Zen Maru Gothic', sans-serif;
+    color: #845ec2;
 }
+
 /* Header */
+header {
+    background-color: rgba(255, 128, 102, .8);
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 95%;
+    box-shadow: 0 3px 3px 2px #3a3a3a;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: baseline; */
+}
+
 h1 {
     font-family: 'Geostar Fill', cursive;
+    font-size: 10vh;
+    color: #845ec2;
 }
+
+/* .logo-bg {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #4b4453;
+    padding: 0px;
+    margin: 0px;
+    z-index: 0;
+} */
+
 /* Menu */
 #menu {
     list-style-type: none;
+    color: #fff;
 }
 
 a {
     text-decoration: none;
 }
 
-/* Only valid for mouse use! */
+/* Only valid for mouse use! 
 a:hover {
     text-transform: uppercase;
+} */
+
+/* Body */
+body {
+    background: url("../images/commodore-64_desk.webp") no-repeat center fixed;
+    background-size: cover;
 }
 
 /* Footer */
-#social-media-links {
-    color: #000;
+div a {
+    font-size: 200%;
+    padding: 10px 0;
+    color: #fff;
     text-align: justify;
-    list-style-type: none;
+}
+
+.footer-flex {
+    display: flex;
+    flex-flow: row wrap;
+    height: 80px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #845ec2;
 }
