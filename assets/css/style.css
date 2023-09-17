@@ -16,10 +16,19 @@ header {
     position: fixed;
     z-index: 99;
     width: 95%;
+    height: 150px;
     box-shadow: 0 3px 3px 2px #3a3a3a;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: baseline; */
+    display: flex;
+    align-content: flex-end;
+}
+
+.logo {
+    display: flex;
+    width: 100%;
+    height: 75px;
+    align-content: flex-start;
+    padding: 5px;
+    margin: 0px;
 }
 
 h1 {
@@ -37,10 +46,12 @@ h1 {
     z-index: 0;
 } */
 
-/* Menu */
-#menu {
-    list-style-type: none;
-    color: #fff;
+/* Navigation bar */
+.navbar {
+    display: flex;
+    flex-direction: row wrap;
+    color: #845ec2;
+
 }
 
 a {
@@ -53,9 +64,17 @@ a:hover {
 } */
 
 /* Body */
-body {
+/* Main Image */
+#main_image {
+    width: 100%;
+    height: 1000px;
     background: url("../images/commodore-64_desk.webp") no-repeat center fixed;
     background-size: cover;
+}
+
+#memories {
+    background-color: rgba(255, 128, 102, .8);
+    position: absolute;
 }
 
 /* Footer */
@@ -63,7 +82,7 @@ div a {
     font-size: 200%;
     padding: 10px 0;
     color: #fff;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .footer-flex {
@@ -74,4 +93,5 @@ div a {
     justify-content: space-around;
     align-items: center;
     background-color: #845ec2;
+    box-shadow: 0 3px 3px 2px #3a3a3a;
 }
